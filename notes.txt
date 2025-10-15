@@ -1,0 +1,118 @@
+15th Oct 2025
+=============
+
+    -> Python 
+
+        -> Full Stack : Django (Python for Apps, Flask, FAST API etc)
+
+        -> Data Analytics / Data Science / AI (Numpy, Pandas, Pytorch etc)
+
+        -> Cloud & DevOps (OS, Sys, Cloud SDK's etc)
+
+    -> Core Python which is common for all above courses (30-35 Days)
+
+        -> Language Fundamentals 
+
+    ->  Python is a high-level, general-purpose programming language. 
+        Its design philosophy emphasizes code readability 
+        with the use of significant indentation. 
+        Python is dynamically type-checked and garbage-collected.
+
+    -> High-level programming language
+
+        -> Human Understandable language (English) 
+
+        -> python (English) 
+
+    -> Low-level programming languages
+
+        -> Machine Understandable language (01010101) [Binary Language]
+
+        -> 01110000 01111001 01110100 01101000 01101111 01101110 
+
+    -> General-purpose programming language
+
+        -> If i can do multiple type of tasks / apps 
+
+        -> python (we can build various types of applications)
+
+            -> Desktop Applications 
+
+            -> Web Applications 
+
+            -> Data Oriented Applications
+
+            -> etc 
+
+    -> Domain Specific programming languages
+
+        -> If i can do only one specific type of tasks / apps 
+
+        -> SQL Structured Query Language is a domain-specific language 
+            used to manage data.
+
+    -> Python's design philosophy emphasizes code readability 
+        with the use of significant indentation
+
+        -> Readability is good because of indentation
+
+        -> Indentation 
+
+            -> other languages => () ; etc 
+            -> python language => space
+
+        -> Readability & Indentation
+
+            -> Java 
+            
+                class Main {
+                    public static void main(String[] args) {  
+                        int first = 10;
+                        int second = 20;
+                        int sum = first + second;
+                        System.out.println(sum);
+                    }
+                }
+
+            -> Python 
+
+                first = 10
+                second = 20
+                sum = first + second
+                print(sum)
+
+    -> Python is dynamically type-checked and garbage-collected.
+
+        -> Dynamically type-checked language (python)
+
+            -> Data Types : Categorization of data 
+
+                -> text, whole numbers, decimal numbers etc 
+
+            -> In Dynamically type-checked language we don't need to define data types 
+
+                -> product = "Apple Iphone 15"
+                -> price = 50000
+                -> quantity_left = 5
+                -> rating = 4.6
+
+        -> Static type-checked language (java)
+
+            -> In Static type-checked language we need to define data types for sure
+
+                -> String product = "Apple Iphone 15";
+                -> double price = 50000;
+                -> int quantityLeft = 5;
+                -> double rating = 4.6;
+
+    -> Garbage-collected
+
+        -> Removing Unused Data 
+
+        -> Python automatically cleans up the unused data / memory 
+
+            -> print(product)
+            -> print(price)
+            -> print(rating)
+
+            -> python cleans up quantity_left as it's not used 
