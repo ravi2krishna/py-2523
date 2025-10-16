@@ -116,3 +116,103 @@
             -> print(rating)
 
             -> python cleans up quantity_left as it's not used 
+
+16th Oct 2025
+=============
+
+    -> Python is a Interpreted language 
+
+        -> An interpreted language is a programming language that executes 
+        instructions directly, "line by line", without a separate compilation step.
+
+        -> Performance wise Interpreted language are slow compared to Compiled language. 
+
+    -> Java is a Compiled Language
+
+        -> Compiled languages are translated into machine code all at once before execution.
+
+        -> Performance wise Compiled languages are Faster 
+
+    -> Python 
+
+        -> Python is considered as worlds best PROTO TYPE LANGUAGE
+
+            -> Focus on how fast we are developing the application
+
+        -> Vast Eco System (libraries)
+
+    -> Programming Paradigms 
+
+        -> A programming paradigm is a relatively high-level way to 
+            conceptualize and structure the implementation of a computer program.
+
+        -> Problem : How to reach institute ?
+
+            -> Ans 1 : I'll walk and come
+            -> Ans 2 : I'll come by bike
+            -> Ans 3 : I'll come by car
+            -> Ans 4 : I'll come by public transport bus 
+
+        -> Imperative Approach 
+
+            -> Focus is on HOW TO DO (style) 
+
+            -> Object Oriented Programming 
+
+        -> Declarative Approach 
+
+            -> Focus is on WHAT TO DO (style) 
+
+            -> Functional Programming 
+
+        -> Python allows you to go with multi paradigm 
+
+    
+    -> Key Features Of Python / Why Python ?
+
+        -> Simplicity & Easy Readability 
+
+        -> Versatility  
+
+            -> Data Oriented / Full Stack / Cloud Automation / DevOps etc 
+
+        -> Multi paradigm Programming Language (OOPS / FUNCTIONAL)
+
+        -> Dynamic Typed 
+
+        -> Open Source (FREE)
+
+        -> High Level Language (no 0101001 => just english like)
+
+
+        -> List Of Popular Applications Where Python is used 
+
+            ->  https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites   
+
+
+    -> Requirements for this course 
+
+        -> Hardware 
+
+            -> i3 / i5 processor 
+
+            -> 4 GB RAM / 8 GB RAM 
+
+            -> 500 GB HDD / SSD 
+        
+        -> Software 
+
+            -> Install Python Interpreter (https://python.org)
+
+                -> In Windows (python)
+
+                -> In Mac (python3)
+
+            -> IDE : Integrated Development Environment 
+
+                -> Visual Studio Code 
+
+            -> Git (OPTIONAL) : Code Tracking 
+
+
+            
