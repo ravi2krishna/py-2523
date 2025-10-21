@@ -215,4 +215,73 @@
             -> Git (OPTIONAL) : Code Tracking 
 
 
-            
+21st Oct 2025
+=============
+
+    -> Python Setup 
+
+        -> open command prompt (windows)
+
+            -> python --version (windows)
+
+        -> open terminal (mac)
+
+            -> python3 --version (mac)
+
+    -> IDE - Visual Studio Code Setup 
+
+    
+    -> Where to write python code 
+
+        -> Command Line Mode (not recommended)
+
+            -> We write the code in command prompt / terminal 
+
+            -> Temporary, once we close the session all code is gone 
+
+        -> Script Mode (recommended)
+
+            -> We write the code in IDE i.e Visual Studio Code 
+
+            -> Permanent, stored on disk 
+
+    
+    -> How To write python code ?
+
+        -> Any programming language has Syntax (Rules & Guideline)
+
+        -> Comparing programming language with english language
+
+            -> i taking class now today at 7 AM now (incorrect)
+
+            -> i'm taking class today at 7 AM (correct)
+
+            -> Learning English 
+
+                -> English has 26 alphabets (abcde.....z)
+
+                -> Using this alphabets, you will form words and complex sentences over time 
+
+            -> Learning Python 
+
+                -> Python has Keywords like alphabets in english
+
+                    -> Python has 35 Keywords
+
+                -> Using python Keywords with proper syntax, you can build application over time 
+
+                -> List Of Python Keywords
+
+                    -> https://docs.python.org/3/reference/lexical_analysis.html#keywords
+                
+                    False      await      else       import     pass
+                    None       break      except     in         raise
+                    True       class      finally    is         return
+                    and        continue   for        lambda     try
+                    as         def        from       nonlocal   while
+                    assert     del        global     not        with
+                    async      elif       if         or         yield
+
+
+
+
