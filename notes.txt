@@ -282,6 +282,70 @@
                     assert     del        global     not        with
                     async      elif       if         or         yield
 
+22nd Oct 2025
+=============    
+
+    -> Python rules 
+
+        -> Comments are represented using # 
+
+            -> when we comment using #, python will ignore that line
+
+        -> When working with numerics (1,2,3.5 etc) we can directly use them in print()
+
+        -> When working with text, in python text is called as "strings"
+
+            -> Rule is strings need to be enclosed in 'good morning' or "good morning"
+
+    -> Identifiers 
+
+        -> An identifier is a "name" used to uniquely identify a piece of data
+
+            -> Variable
+            -> Function
+            -> Class
+            -> Object 
+            -> Method 
+            -> etc
+
+        -> Identifiers Rules 
+
+            -> Can Contain 
+
+                -> Letters (a-z, A-Z)
+                -> Digits (0-9)
+                -> Special Symbol (Only Underscore _ )
+
+            -> Must Start with 
+
+                -> A letter or _ (Underscore)  
+
+    -> NOTE : Always use proper way of naming identifiers 
 
 
+    -> Data : Hard Drive - Persistent Storage (Permanent) - SLOW
 
+    -> Data : Memory (RAM) - Non-Persistent Storage (Temporary) - FAST
+
+    -> Variables 
+
+        -> Variable is a named storage location in a computer's memory (RAM)
+            that holds a value or data
+
+        -> Computer -> Memory RAM  -> Variables
+
+        -> How to store data / using variable, but how ?
+
+            -> Syntax 
+
+                variable_name = value 
+
+                variable_name should follow Identifier Rules 
+                = is called as assignment operator 
+                value is data you want to store 
+        
+        -> Variables allows you to 
+
+            -> Assign Data (Storing Data)
+            -> Retrieve Data 
+            -> Manipulate Data (If Required)
