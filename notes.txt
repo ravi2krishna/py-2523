@@ -349,3 +349,49 @@
             -> Assign Data (Storing Data)
             -> Retrieve Data 
             -> Manipulate Data (If Required)
+
+23rd Oct 2025
+=============
+
+    -> How to Combine variables with our statements 
+
+        -> Concatenation joining strings (+)
+
+        -> for print() you can pass as argument using ,
+
+    -> How to know the memory address of a variable
+
+        -> Function : does a task 
+
+        -> print() : prints on standard output 
+
+        -> id() : will show memory address 
+
+    -> Memory Model Of Python (Variables)
+
+        -> If the value is already present, python will not create again a memory block, 
+            instead it will just use reference, so memory is efficiently used 
+
+        -> Simple Data Type : Holds one value in a single variable ex is int  
+
+        -> Complex Data Type : Holds "multiple values" in a single variable ex is list 
+
+    -> type() : will display the data type of variable
+
+    -> Interpolation 
+
+        -> Interpolation technique replaces, place holders with actual values dynamically
+
+        -> Using f-strings (Formatted String Literals)
+
+            -> we use f with print and {} as place holders 
+
+    -> Operators 
+
+        -> Operators are special "symbols", performs operations on variables and their values 
+
+        -> There are different types of Operators 
+
+            -> Arithmetic Operators 
+
+                -> + - * / 
