@@ -386,12 +386,89 @@
 
             -> we use f with print and {} as place holders 
 
+24th Oct 2025
+=============
+
     -> Operators 
 
         -> Operators are special "symbols", performs operations on variables and their values 
 
         -> There are different types of Operators 
 
-            -> Arithmetic Operators 
+            -> Arithmetic Operators  
 
-                -> + - * / 
+                -> + - * / % 
+                -> // : floor division (same as division but rounds off result)
+                -> ** : Exponentiation (calculate power)
+            
+            -> Compound Assignment Operators  
+
+                -> Assignment operator is = used for assigning a value 
+
+                -> Compound Assignment Operators combine Arithmetic with Assignment Operator
+
+                -> Used for short hand code (concise code)
+
+                    -> x = 10 
+                    -> x = x + 5 (long form)
+                    -> x += 5 (short form)
+                    -> x *= 5 (short form)
+
+                    -> Increment / Decrement : ++ / --
+
+                        -> Python doesn't support above syntax 
+
+                        -> In python to achieve Increment / Decrement we use 
+                            Compound Assignment Operators
+            
+            -> Comparison Operators  
+
+                -> Used for comparing values and results in boolean (True/False)
+
+                -> Especially used in conditionals 
+
+                -> ==, !=, >, <, >=, <=
+
+            -> Logical Operators  
+
+                -> For performing logical operations 
+
+                -> Used to check multiple conditionals and results in boolean (True/False)
+
+                    -> and : if both the conditions are True, then result is True 
+                    -> or : if one of the conditions is True, then result is True 
+                    -> not : negates, if true then false and vice versa
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+            -> Membership Operators  
+
+                -> Used for checking if an object is in sequence 
+
+                    -> in : returns True, if given object is in sequence 
+
+                    -> not in : returns True, if given object is not in sequence 
+            
+            -> Identity Operators  
+
+                -> Used for checking if both objects are same 
+
+                    -> is : returns True, if objects are same 
+
+                    -> is not : returns True, if objects are not same 
+
+            -> Bitwise Operators  
+
+                -> Used in Low Level Programming (01010101)
+
+                    -> & - if both the bits are 1, then result is 1
+                    -> | - if one of the bits is 1, then result is 1 
+                    -> etc 
+
+        -> https://www.cardekho.com/mahindra/be-6
+
+        
