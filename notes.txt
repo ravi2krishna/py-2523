@@ -472,3 +472,75 @@
         -> https://www.cardekho.com/mahindra/be-6
 
         
+25th Oct 2025
+=============
+
+    -> Data Types 
+
+        -> Data types are categories that define, what kind of data a variable can hold
+
+        -> Python is dynamic typed language (assumes type based on value)
+
+        -> Numeric Type 
+
+            -> int : 1,2,4,0,-1,-5 etc
+            -> float : 3.5, 10.0, 2.1 etc 
+            -> complex : 
+                -> a + ib in math (i is imaginary)
+                -> a + bj in python 
+
+        -> Text Type 
+
+            -> str : String is a sequence of characters inclosed in " " or ' '
+
+        -> Boolean Type
+
+            -> bool : Represents True/False 
+        
+        -> None Type 
+
+            -> NoneType : Represents nothing i.e absence of value 
+
+        -> Sequence Type 
+
+            -> String is also a sequence type 
+
+            -> List : Complex Datatype => Holds Multiple Values, represented using [], Mutable (can be changed)
+
+            -> Tuple : Complex Datatype => Holds Multiple Values, represented using (), Immutable (cannot be changed)
+
+        -> Set Type 
+
+            -> set : Complex Datatype => Holds Multiple Values(unique data -> No Duplicates), 
+                    represented using {}, Mutable (can be changed)
+            
+            -> frozenset : Complex Datatype => Holds Multiple Values(unique data -> No Duplicates), 
+                    represented using frozenset class, Immutable (cannot be changed)
+
+        -> Map Type 
+
+            -> dictionary : Complex Datatype => Holds Multiple Key & Values, represented using {}, Mutable (can be changed)
+
+        -> NOTE : All the above Data types are pre-defined in python standard library 
+
+        -> NOTE : Based on custom requirements, we can create our own data types also 
+
+            -> Syntax
+
+                class CustomDataType:
+                    statements
+    
+
+    -> Type Conversion / Implicit 
+
+        -> Converting one Datatype to another, automatically by python
+
+        -> Type Conversion is SAFE no data loss 
+    
+    -> Type Casting / Explicit 
+
+        -> Converting one Datatype to another, manually by developer 
+
+        -> Type Casting is NOT SAFE, data loss might occur 
+
+        -> We use some predefined Functions 
