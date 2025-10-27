@@ -544,3 +544,60 @@
         -> Type Casting is NOT SAFE, data loss might occur 
 
         -> We use some predefined Functions 
+
+27th Oct 2025
+=============
+
+    -> Control Structures / Control Statements
+
+        -> Control structures helps you determine the flow of execution in a program, 
+            allowing you to make decisions and repeat tasks.
+
+        -> Python has given three types of Control structures
+
+            -> Conditional Statements / Structures (Decision Making Statements)
+
+            -> Looping Statements / Structures (Iteration Statements)
+
+            -> Branching Statements / Structures (Jumping Statements)
+
+        -> Indentation 
+
+            -> Indentation in Python is a fundamental and mandatory aspect of its "syntax", 
+                used to define the structure and hierarchy of code blocks. 
+                Unlike many other programming languages that use curly braces or keywords 
+                to delineate blocks, Python relies entirely on consistent indentation.
+
+            -> Using space correctly 
+
+                -> Python allows for any consistent number of spaces or a single tab(4 spaces) for indentation, 
+                the widely accepted and recommended standard.
+
+                -> At least one space but recommended is 4 space i.e tab 
+
+                
+        -> Conditional statements
+
+            -> Used to run a "block of code" based on a condition result 
+
+            -> if 
+
+                -> runs a block of code, if the condition is True 
+
+                    -> syntax 
+                        if condition:
+                            statements 
+
+            
+            -> if else
+
+                -> runs a block of code, if the condition is True 
+                   runs another block of code, if the condition is False  
+
+                    -> syntax 
+                        if condition:
+                            statements 
+                        else:
+                            statements
+                        
+        -> NOTE : input() function reads input from user 
