@@ -601,3 +601,59 @@
                             statements
                         
         -> NOTE : input() function reads input from user 
+
+28th Oct 2025
+=============
+    
+    -> The ternary operator in Python, also known as a conditional expression, 
+    provides a concise way to write an if-else statement on a single line. 
+    It evaluates a condition and returns one of two values 
+    based on whether the condition is true or false.
+
+    -> syntax 
+        value_if_true if condition else value_if_false
+    
+    -> elif ladder
+
+        -> elif is a keyword that stands for "else if". 
+        It is used in conditional statements to check for "multiple conditions" 
+        sequentially after an initial if statement.
+
+        -> syntax 
+            if condition:
+                statements
+            elif condition:
+                statements
+            elif condition:
+                statements
+            .
+            .
+            else:
+                statements
+
+
+    -> match-case
+    
+        -> Like elif we have match-case in python for checking "multiple conditions" 
+
+        -> Offers a more expressive and readable alternative to 
+            complex if-elif-else chains
+
+        -> introduced from python 3.X 
+
+        -> In other languages like java / c++ we had (switch case)
+
+        -> syntax
+            match expression:
+                case pattern1:
+                    # Code block 1
+                case pattern2:
+                    # Code block 2
+                # ...
+                case _:  # Optional wildcard/default case
+                    # Default code block
+
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals    
+

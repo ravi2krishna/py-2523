@@ -61,3 +61,66 @@ if age >=18 :
     print("You can vote")
 else:
     print("You cannot vote")
+    
+# ternary operator / conditional expression
+# value_if_true if condition else value_if_false
+age = int(input("Enter Your Age: "))
+status = "You can vote" if age >=18 else "You cannot vote"
+print(status)
+
+# elif ladder
+marks = int(input("Enter Your Marks: "))
+if marks >= 90:
+    print("Passed")
+else:
+    print("FAILED")
+    
+# elif ladder
+marks = int(input("Enter Your Marks: "))
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")   
+elif marks >= 60:
+    print("C")   
+elif marks >= 50:
+    print("D")   
+elif marks >= 35:
+    print("E")   
+else:
+    print("F")
+
+# match-case
+choice = int(input("Enter Your Choice: "))
+match choice:
+    case 1:
+        print("Option 1 Selected")
+    case 2:
+        print("Option 2 Selected")
+    case 3:
+        print("Option 3 Selected")
+    case 4:
+        print("Option 4 Selected")
+    case _:
+        print("Default Option Selected")
+
+# Voting app with identity verification -> incorrect approach
+age = int(input("Enter Your Age: "))
+has_id = input("Do You Have ID (yes/no): ")
+if age >=18 :
+    print("You can vote")
+elif has_id == "yes":
+    print("You can vote as you have ID")
+else:
+    print("You cannot vote")
+
+# Voting app with identity verification using nested conditionals 
+age = int(input("Enter Your Age: "))
+if age >=18 :
+    has_id = input("Do You Have ID (yes/no): ")
+    if has_id == "yes":
+       print("You can vote")
+    else:
+        print("You need an ID to vote") 
+else:
+    print("You cannot vote")
