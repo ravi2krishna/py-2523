@@ -657,3 +657,64 @@
 
         -> Conditionals inside Conditionals    
 
+29th Oct 2025
+=============
+
+    -> Looping Statements (Iteration Statements)
+
+        -> Loops in Python are used to repeatedly execute a block of code. 
+        
+        -> When you want to do a task multiple times, use loops
+
+        -> Python offers two primary types of loops
+            
+            -> "while" loops 
+
+            -> "for" loops
+
+        -> while loop 
+
+            -> while loops execute a block of code repeatedly 
+            as long as a specified condition remains True
+
+            -> We use while generally, when we don't know number of
+            Iterations in advance 
+
+            -> syntax
+
+                while condition:
+                    statements
+                
+        -> for loop
+
+            -> for loops are used to iterate over a sequence (like a list, tuple, string, or range) 
+            or other iterable objects. 
+            The loop executes a block of code once for each item in the sequence. 
+
+            -> We use for generally, when we  know number of Iterations in advance 
+
+            -> syntax 
+
+                for var in sequence:
+                    print(var)
+            
+            -> How do i know, if an object is iterable ?
+
+                -> use dir() 
+                -> dir() function in Python is a built-in function used for introspection, 
+                    allowing you to discover the attributes and methods of an object 
+
+            -> range() 
+
+                -> The range() function in Python generates an immutable sequence of numbers. 
+                It is commonly used for iterating a specific number of times in for loops. 
+
+                -> range(start, stop, step): This form generates a sequence of numbers starting 
+                from start (inclusive) up to, but not including, the stop value, 
+                with an increment of step. The step can be positive or negative.
+
+                    range(start, stop, step)
+                        -> start default is 0 (included) (inclusive)
+                        -> stop at this value (excluded) (exclusive)
+                        -> step is increment (default step is 1)
+                        
