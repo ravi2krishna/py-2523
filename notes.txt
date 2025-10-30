@@ -718,3 +718,10 @@
                         -> stop at this value (excluded) (exclusive)
                         -> step is increment (default step is 1)
                         
+30th Oct 2025
+=============
+
+    -> Nested Loops 
+
+        -> Loops inside loops 
+        
