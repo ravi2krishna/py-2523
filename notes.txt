@@ -845,3 +845,11 @@
         instead return a new string with the applied changes.
 
         -> https://docs.python.org/3/library/stdtypes.html#string-methods
+
+
+4th Nov 2025
+=============
+
+    -> String Methods 
+
+    
