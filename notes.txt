@@ -853,3 +853,33 @@
     -> String Methods 
 
     
+5th Nov 2025
+=============
+
+    -> Strings App Requirement
+
+    -> Simple Data Types 
+
+        -> Can hold one value 
+
+            -> data = 10
+            -> data = "hello" 
+            -> data = 10.5
+
+    -> Complex Data Types 
+
+        -> Can hold multiple values 
+
+            -> data = [10,20,30]
+            -> data = ["hello","hi","hey"]
+            -> data = [10.5,3.5,2.2]
+
+    -> Python provides following classes to work with complex data types 
+
+        -> List
+        -> Tuple 
+        -> Dictionary
+        -> Set 
+
+
+
