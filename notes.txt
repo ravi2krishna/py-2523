@@ -882,4 +882,37 @@
         -> Set 
 
 
+6th Nov 2025
+=============
 
+    -> List 
+
+        -> List is a data structure which allows you to store multiple values
+            in a single variable, each value is separated with , 
+
+        -> Lists are represented using [ ] or using list class
+
+        -> Accessing Data In Lists 
+
+            -> Like in Strings, we have index concept in Lists too 
+
+            -> Index Starts with Zero (0)
+
+            -> Supports Positive & Negative Index 
+
+            -> Indexing & Slicing same as strings 
+
+                -> string[start:end:step]
+
+        -> Looping we can apply 
+
+        -> Operators we can apply 
+
+        -> Conditionals we can apply 
+
+        -> Duplicates allowed in Lists 
+
+        -> Order is preserved in Lists 
+
+
+    -> Lists support different methods for performing operations on data 
