@@ -916,3 +916,101 @@
 
 
     -> Lists support different methods for performing operations on data 
+
+7th Nov 2025
+============
+
+    -> List Methods / Operations 
+
+    -> List Characteristics 
+
+        -> Order : Lists are Ordered (insertion order is preserved)
+
+        -> Mutable : Lists are Mutable (can be changed)
+
+        -> Duplicates : Lists Allows Duplicates
+
+    
+    -> Tuple 
+
+        -> Tuple is a data structure which allows you to store multiple values
+            in a single variable, each value is separated with , 
+
+        -> Tuples are represented using ( ) or using tuple class
+
+        -> Accessing Data In Tuples 
+
+            -> Like in Strings, we have index concept in Tuples too 
+
+            -> Index Starts with Zero (0)
+
+            -> Supports Positive & Negative Index 
+
+            -> Indexing & Slicing same as strings 
+
+                -> string[start:end:step]
+
+        -> Looping we can apply 
+
+        -> Operators we can apply 
+
+        -> Conditionals we can apply 
+
+        -> Duplicates allowed in Tuples 
+
+        -> Order is preserved in Tuples 
+
+        -> NOTE: Tuples are "Immutable" (cannot be changed)
+
+        -> NOTE: Tuples are "READ ONLY" Lists 
+
+    -> Tuple support only two methods count & index i.e reading 
+
+    -> Tuple Characteristics 
+
+        -> Order : Tuples are Ordered (insertion order is preserved)
+
+        -> Mutable : Tuples are Immutable (cannot be changed) (**)
+
+        -> Duplicates : Tuples Allows Duplicates
+
+    
+    -> Dictionaries 
+
+        -> Dictionaries is a data structure which allows you to store multiple 
+            key & values in a single variable, each item is separated with , 
+
+                -> key:value [item/pair]
+
+        -> Dictionaries are represented using { } or using dict class
+
+        -> Accessing Data In Dictionaries 
+
+            -> Like in Strings, we don't have index concept in Dictionaries
+
+                -> NOTE: Dictionaries don't have INDEX 
+
+            -> Doesn't Support Positive & Negative Index 
+
+            -> Doesn't Support Indexing & Slicing
+
+        -> Looping we can apply 
+
+        -> Operators we can apply 
+
+        -> Conditionals we can apply 
+
+        -> Duplicates allowed in Dictionaries with conditions 
+
+            -> Values can be Duplicated 
+            -> Keys should be Unique  
+
+            -> Keys should be immutable objects only 
+                -> 90% and above strings will be keys 
+
+            -> Values can be any objects  
+
+        -> Order is preserved in Dictionaries 
+
+
+    -> Dictionaries support different methods for performing operations on data 
