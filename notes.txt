@@ -1014,3 +1014,13 @@
 
 
     -> Dictionaries support different methods for performing operations on data 
+
+
+8th Nov 2025
+============
+
+    -> Dictionary Real world use cases
+
+    -> https://www.convertsimple.com/wp-content/uploads/2022/05/json-example.png
+
+    -> 
