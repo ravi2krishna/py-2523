@@ -1092,3 +1092,43 @@
             only with class we can create 
 
         -> NOTE : Frozen Set only supports math related set operations 
+
+11th Nov 2025
+=============
+
+    -> Sets Operations 
+
+    -> frozen set operations are exactly same as set, except they are immutable 
+
+    -> Set Characteristics 
+
+        -> Order : Sets are UnOrdered (insertion order is not preserved)
+
+        -> Mutable : Sets are Mutable (can be changed)
+
+        -> Duplicates : Sets Doesn't Allow Duplicates 
+    
+    -> Frozen Set Characteristics 
+
+        -> Order : Sets are UnOrdered (insertion order is not preserved)
+
+        -> Immutable : Frozen Sets are Immutable (cannot be changed)
+
+        -> Duplicates : Frozen Sets Doesn't Allow Duplicates
+
+    
+    -> How to use above data structures in Applications ?
+
+        -> Lists        (When To Use)
+        -> Tuples       (When To Use)
+        -> Dictionaries (When To Use)
+        -> Sets         (When To Use)
+
+    -> CRUD Applications (Database - Web Applications)    
+
+        -> C - CREATE 
+        -> R - READ
+        -> U - UPDATE
+        -> D - DELETE 
+
+    
