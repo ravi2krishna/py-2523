@@ -6,7 +6,7 @@
 SYSTEM_INFO = ("Edify Technologies","Student Management System","v1")
 
 # Admin Info - READ Only (Tuple)
-ADMIN_INFO = ("9090880","admin@edify.com")
+ADMIN_INFO = ("9090880123","admin@edify.com")
 
 # system startup info
 print("=" * 50)
@@ -72,12 +72,55 @@ while True:
         
     elif choice == "2":
         print("Updating Student")
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            new_name = input("Enter Name: ").title()
+            students[student_id]["name"] = new_name
+            print("Student Updated")
+        else:
+            print("Student ID Doesn't Exist")
+        
+        print(students)    
+        
+        
     elif choice == "3":
         print("Deleting Student")
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            removed_student = students.pop(student_id)
+            print("Removed Student Details: ",removed_student)
+        else:
+            print("Student ID Doesn't Exist")
+        
+        print(students) 
+        
     elif choice == "4":
         print("Listing Student")
+        # {'102': {'name': 'John', 'scores': [80], 'skills': {'java'}}}
+        for sid, data in students.items():
+            name = data['name']
+            scores = data['scores']
+            avg_score = sum(scores) / len(scores)
+            high_score = max(scores)
+            least_score = min(scores)
+            skills = data['skills']
+            skills_count = len(skills)
+            
+            print(f"ID: {sid}")
+            print(f"Name: {name}")
+            print(f"All Scores: {scores}")
+            print(f"Average Score: {avg_score}")
+            print(f"Maximum Score: {high_score}")
+            print(f"Minimum Score: {least_score}")
+            print(f"All Skills: {skills}")
+            print(f"Skills Count: {skills_count}")     
+        
     elif choice == "5":
         print("Exiting System")
+        print("=" * 50)
+        print(f"Call Admin On {ADMIN_INFO[0]}")
+        print(f"Email Admin On: {ADMIN_INFO[1]}")
+        print("=" * 50)    
         break
     else:
         print("Invalid Choice, Only (1-5) are valid")
