@@ -1236,3 +1236,32 @@
             
         -> This parameter will then collect all the extra positional arguments passed to the function 
             into a single tuple. 
+
+17th Nov 2025
+=============
+
+    -> Arbitrary Keyword Arguments
+
+        -> In Python, arbitrary keyword arguments allow a function to accept 
+            a variable/unknown number of keyword arguments. 
+            This is achieved by placing an asterisk (**) before a parameter name in the function definition. 
+
+        -> This parameter will be collected into a dictionary, where the names will be keys and 
+            values will be dictionary values  
+
+    -> "return" keyword 
+
+        -> In Python, the "return" keyword is used within a function to send a value 
+        back to the part of the code that called the function.
+
+        -> when you don't use a return, by default a function returns None 
+
+        -> When working with function composition (function calling another function), return will 
+            be helpful 
+
+        -> If you use return, make sure it's the last part of statement to be executed
+
+        -> If you have multiple return statements, first will be considered
+
+        -> If multiple returns are present, and used with conditionals, you can control the flow 
+

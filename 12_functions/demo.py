@@ -126,3 +126,80 @@ def add_numbers(*nums):
 add_numbers(10)
 add_numbers(10,20)
 add_numbers(10,20,30)
+
+# Arbitrary Keyword Arguments
+    # unknown number of Keyword arguments.
+    # Keyword arguments passed to the function into a dictionary 
+
+def profile(**info):
+    print(info)
+
+profile(fname="ravi")
+profile(fname="ravi",lname="krishna",age=32)
+
+def bank_transactions(**trans):
+    print(trans)
+    total = 0
+    for transaction in trans:
+        total += trans[transaction] # total = total + num
+    print(f"You have done {len(trans)} Transactions which totals to: {total}")
+    
+bank_transactions(jan=1000,feb=3000,mar=5000)
+bank_transactions(apr=6000)
+
+# Without return
+def add(a,b):
+    a + b
+
+add(10,20)    
+print(add(10,20))
+
+# With return
+def add(a,b):
+    return a + b
+
+add(10,20) 
+print(add(10,20)) 
+
+# Function composition
+def sub(c,d,e): # add c + d then minus e
+    return add(c,d) - e
+print(sub(3,4,5)) # 2
+
+def greet():
+    return "Hello "    
+
+def morning():
+    print(greet())
+    return "Good Morning"
+
+print(morning())
+
+# With return
+def add(a,b):
+    return a + b
+    print("Calculation Done") # Code is structurally unreachable
+
+print(add(100,200))
+
+
+def math_ops(a,b): # a & b are parameters 
+    return a+b
+    return a-b
+    return a*b
+
+print(add(10,20))
+
+def math_ops(a,b,opr): # a & b are parameters 
+    if opr == "+":
+        return a+b
+    elif opr == "-":
+        return a-b
+    elif opr == "*":
+        return a*b
+    else:
+        return "Invalid Operator Given"
+
+print(math_ops(10,20,"+"))
+print(math_ops(10,20,"*"))
+print(math_ops(10,20,"/"))
