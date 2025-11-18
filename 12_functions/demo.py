@@ -203,3 +203,78 @@ def math_ops(a,b,opr): # a & b are parameters
 print(math_ops(10,20,"+"))
 print(math_ops(10,20,"*"))
 print(math_ops(10,20,"/"))
+
+# Local Scope
+def add():
+    la = 10 # local variable
+    lb = 20 # local variable
+    print(la) # accessed within function
+    print(lb)
+    
+add()
+
+# print(la) # accessing local outside function # NameError: name 'la' is not defined. Did you mean: 'a'?
+
+def add(la,lb): # la & lb are local variable
+    print(la) # accessed within function
+    print(lb)
+    
+add(100,200)
+
+# print(la) # accessing local outside function # NameError: name 'la' is not defined. Did you mean: 'a'?
+
+# Global Scope
+
+# global variable
+ga = 30
+
+def add(la,lb): # la & lb are local variable
+    print(la) # accessed within function
+    print(lb)
+    print(ga) # global accessed within function
+
+add(15,20)
+print(ga) # global accessed outside function
+
+# name conflicts
+ga = 30
+def add(la,lb,ga): # la & lb & ga are local variable
+    print(la) # accessed within function
+    print(lb)
+    print(ga) # local accessed within function as per preference
+    print(globals()['ga']) # global accessed within function
+
+add(1,2,3)
+
+# global variable scenario outside functions 
+count = 0
+print(count)
+count += 1
+print(count)
+
+# global keyword scenario inside functions 
+count = 0
+def increment():
+    global count
+    count += 1 # UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+    
+increment()
+
+# Built In Functions 
+# type, len, max, min, dir, id, input etc 
+print(type(count))
+print(id(count))
+
+# Regular Function i.e without lambda 
+def add(a,b):
+    return a + b
+print(add(10,20))
+
+# Above Function with lambda i.e lambda function
+# lambda arguments:expression
+sum = lambda a,b:a + b
+print(sum(300,400))
+
+# With lambda IILE
+print((lambda a,b:a + b) (500,400))
+
