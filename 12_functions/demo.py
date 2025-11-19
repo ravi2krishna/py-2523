@@ -278,3 +278,65 @@ print(sum(300,400))
 # With lambda IILE
 print((lambda a,b:a + b) (500,400))
 
+# Without Lambda 
+def is_even_num(num):
+    if num % 2 == 0:
+        return True
+    else:
+        return False 
+
+print(is_even_num(10))
+print(is_even_num(5))
+
+# With Lambda
+print((lambda num:num % 2 == 0) (11))
+print((lambda num:num % 2 == 0) (9))
+print((lambda num:num % 2 == 0) (10))
+
+# Without Lambda 
+def check_num(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+print(check_num(10))
+print(check_num(-10))
+print(check_num(0))
+
+# With Lambda
+print((lambda num: "Positive" if num > 0 else "Negative" if num < 0 else "Zero") (10))
+print((lambda num: "Positive" if num > 0 else "Negative" if num < 0 else "Zero") (-10))
+print((lambda num: "Positive" if num > 0 else "Negative" if num < 0 else "Zero") (0))
+
+# Without Lambda 
+def employee_info(emp_name,emp_email,emp_location):
+    print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}")
+
+employee_info(emp_location="hyderabad",emp_email="ravi@gmail.com",emp_name="ravi")
+
+# With Lambda
+# print((lambda num:num % 2 == 0) (11))
+print((lambda emp_name,emp_email,emp_location: print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}"))(emp_location="pune",emp_email="mike@gmail.com",emp_name="mike"))
+
+# Without map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5] ==> [1,4,9,16,25]
+
+def square_list(numbers):
+    squared_list = []
+    for num in numbers:
+        squared_list.append(num * num)
+    return squared_list
+
+print(square_list([1,2,3,4,5]))
+
+# with map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5] ==> [1,4,9,16,25]
+# map(function, iterable)
+map((lambda num: num * num), [1,2,3,4,5])
+print(map((lambda num: num * num), [1,2,3,4,5]))
+print(list(map((lambda num: num * num), [1,2,3,4,5])))

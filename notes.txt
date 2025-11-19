@@ -1341,3 +1341,31 @@
             -> Using lambda we can write one liner functions called "IILE" 
 
                 Immediately Invoked Lambda Expression  
+
+19th Nov 2025
+=============
+
+    -> Lambda & Higher Order Functions 
+
+    -> Generally lambda functions will be attached with Higher Order Functions 
+
+    -> Higher Order Functions 
+
+        -> The goal of Higher Order Functions is to "perform operations on Iterables" 
+
+        -> Concise Code, without writing lengthy code with loops 
+    
+            -> map()
+
+                -> The map() function in Python is a built-in function that applies 
+                    a given function to each item in an iterable (like a list, tuple, or string) 
+                    and returns an iterator containing the results. 
+                    
+                -> It provides a concise way to perform "transformations" on 
+                    collections of data without explicitly writing loops. 
+
+                    -> syntax
+
+                        map(function, iterable)
+
+                -> NOTE: Just Like Using For Loop with function
