@@ -340,3 +340,90 @@ print(square_list([1,2,3,4,5]))
 map((lambda num: num * num), [1,2,3,4,5])
 print(map((lambda num: num * num), [1,2,3,4,5]))
 print(list(map((lambda num: num * num), [1,2,3,4,5])))
+
+# real world use case of map 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+print(list(map((lambda p: p["price"] - p["price"] * p["discount"] / 100), products)))
+price_after_discounts = list(map((lambda p: p["price"] - p["price"] * p["discount"] / 100), products))
+print("Prices After Discount: ",price_after_discounts)
+
+# without filter()
+# Write a script/program to take a list of numbers and return the even list of numbers 
+# [1,2,3,4,5,6,7,8,9,10] ==> [2,4,6,8,10]
+
+def even_list(numbers):
+    evened_list = []
+    for num in numbers:
+        if num % 2 == 0:
+            evened_list.append(num)
+    return evened_list
+
+print(even_list([1,2,3,4,5,6,7,8,9,10]))
+
+# with filter()
+# Write a script/program to take a list of numbers and return the even list of numbers 
+# [1,2,3,4,5,6,7,8,9,10] ==> [2,4,6,8,10]
+
+filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10])
+print(filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10]))
+print(list(filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10])))
+
+
+# real world use case of filter 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+# Find me the products which are above 10000 price 
+print(list(filter((lambda p: p["price"] > 10000), products)))
+costly_products = list(filter((lambda p: p["price"] > 10000), products))
+print("Costly Products: ",costly_products)
+
+
+# without reduce()
+# Write a script/program to take a list of numbers and return the product of all numbers 
+# [1,2,3,4,5] ==> [1*2*3*4*5 ==> 120]
+
+def multiply_numbers(numbers):
+    result = 1
+    for num in numbers:
+        result = result * num
+    return result
+
+print(multiply_numbers([1,2,3,4,5]))
+
+
+# with reduce()
+# Write a script/program to take a list of numbers and return the product of all numbers 
+# [1,2,3,4,5] ==> [1*2*3*4*5 ==> 120]
+from functools import reduce
+print(reduce((lambda result,num: result * num ), [1,2,3,4,5]))
+
+# real world use case of reduce 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+# Data Aggregation ==> Find Total Inventory Value Of All Products 
+# Like Calculating Total Cart Value 
+
+prices = list(map((lambda p: p["price"]), products))
+print(prices)
+print(reduce((lambda total_cart,price: total_cart + price ), prices))
+cart_value = reduce((lambda total_cart,price: total_cart + price ), prices)
+print("Final Cart Value: ",cart_value)
