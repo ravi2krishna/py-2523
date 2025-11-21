@@ -1400,3 +1400,11 @@
                         reduce(function, iterable)
     
     -> etc 
+
+21st Nov 2025
+=============
+
+    -> Functional Style With CRUD App 
+
+        -> Additionally Implement Search Students By Skill Using Higher Order 
+            functions approach 
