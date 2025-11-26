@@ -1408,3 +1408,51 @@
 
         -> Additionally Implement Search Students By Skill Using Higher Order 
             functions approach 
+
+26th Nov 2025
+=============
+
+    -> Modules
+
+        -> A module is simple python file which contains python definitions 
+
+            -> variables 
+            -> functions 
+            -> classes 
+            -> etc 
+        
+        -> Modules Allow you to reuse code, instead of rewriting 
+
+        -> NOTE: Reusability in terms of code blocks go for functions 
+
+        -> NOTE: Reusability in terms of files go for modules 
+    
+    -> Types Of Modules
+
+        -> Inbuilt Modules 
+
+            -> Provided as part of standard python library 
+
+        -> User Defined Modules
+
+            -> Created By User 
+
+            -> import using file name 
+        
+        -> External Modules 
+
+            -> Provided by 3rd party vendors 
+
+                -> https://pypi.org
+
+            -> pip (python package manager)
+
+                -> pip install module_name(win)
+                
+                -> pip3 install module_name(mac)
+    
+    -> syntax 
+
+        -> import module (import complete modules meaning loading all functionalities)
+
+        -> from module import specific_functionality (recommended)
