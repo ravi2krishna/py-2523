@@ -1533,3 +1533,24 @@
             
             -> NOTE: Here implicitly files are closed, 
                 after operations are performed 
+
+29th Nov 2025
+=============
+
+    -> File Reading "r" mode
+
+            -> read()
+            -> readline()
+            -> readlines() 
+
+        -> File Writing "w" mode
+
+            -> write 
+            -> writelines 
+
+            -> NOTE: in "w" mode, previous data is overwritten 
+
+        -> File Writing "a" mode [ Append Mode ]
+
+            -> NOTE: in "a" mode, previous data is not overwritten 
+
