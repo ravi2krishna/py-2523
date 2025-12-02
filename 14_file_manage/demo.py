@@ -62,3 +62,32 @@ with open("14_file_manage/write.txt","w") as file_data:
 # append mode and update file with multiple lines preserving previous line
 with open("14_file_manage/write.txt","a") as file_data:
     file_data.writelines(['line 7\n', 'line 8\n', 'line 9'])
+    
+# Working With Folder / Directory
+
+# Create Folder/Directory 
+import os
+directory_name = "14_file_manage/students_data"
+if not os.path.exists(directory_name):
+    os.mkdir(directory_name)
+    
+# Delete File
+with open("14_file_manage/students_data/new.txt","w") as file_data: # write mode and create file 
+    print(file_data)
+    
+# Delete File
+os.remove("14_file_manage/students_data/new.txt")
+
+# Deleting an empty folder
+directory_name = "14_file_manage/students_data"
+os.rmdir(directory_name)
+
+directory_name = "14_file_manage/new_data"
+if not os.path.exists(directory_name):
+    os.mkdir(directory_name)
+with open("14_file_manage/new_data/new.txt","w") as file_data: # write mode and create file 
+    print(file_data)
+
+# Deleting a non-empty folder
+import shutil
+shutil.rmtree(directory_name)

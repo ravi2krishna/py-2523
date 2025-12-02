@@ -1554,3 +1554,21 @@
 
             -> NOTE: in "a" mode, previous data is not overwritten 
 
+
+2nd Dec 2025
+=============
+
+    -> Folder / Directory Management 
+
+        -> "os" module 
+        -> "shutil" module 
+
+    -> Create Folders & Delete Folders can be done with above modules 
+
+    -> Working with "csv" files 
+
+        -> Very commonly used in Data Oriented Applications 
+
+    -> For fixed data sets, we can use reader functionality from csv module 
+
+    -> For changing data sets, we can use DictReader functionality from csv module 
