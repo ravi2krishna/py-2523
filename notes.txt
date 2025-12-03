@@ -1572,3 +1572,23 @@
     -> For fixed data sets, we can use reader functionality from csv module 
 
     -> For changing data sets, we can use DictReader functionality from csv module 
+
+
+3rd Dec 2025
+=============
+
+    -> reader 
+
+    -> DictReader
+
+    -> writer 
+
+        -> writerow - one row
+
+        -> writerows - multiple rows 
+
+    -> DictWriter 
+
+        -> writerow - one row
+
+        -> writerows - multiple rows 
