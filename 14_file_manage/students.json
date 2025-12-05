@@ -1,0 +1,23 @@
+{
+    "101": {
+        "name": "Ravi",
+        "scores": [
+            90
+        ],
+        "skills": [
+            "git"
+        ]
+    },
+    "102": {
+        "name": "John",
+        "scores": [
+            90,
+            80,
+            70
+        ],
+        "skills": [
+            "ai",
+            "python"
+        ]
+    }
+}
