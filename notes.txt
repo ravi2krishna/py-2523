@@ -1648,3 +1648,127 @@
 
             -> finally: used to keep the code that should run wether an Exception raised or not 
                        : DB / File Streams -> closing connections will be in finally block
+
+9th Dec 2025
+=============
+
+    -> Earlier we worked with In built Exceptions provided as part of 
+        python standard library (ZeroDivisionError, IndexError, ValueError etc)
+
+        -> https://docs.python.org/3/library/exceptions.html 
+
+        -> print(help(Exception))
+
+    -> But sometimes you need your "own custom error" that describes a situation 
+        specific to your program
+
+    -> You create a custom exception by "defining a class" that inherits 
+        from Python’s built-in "Exception" class. 
+        This concept is connected to inheritance.
+
+        -> syntax
+
+            class MyCustomError(Exception):
+                pass 
+
+    -> OOP - Object Oriented Programming
+
+        -> OOP, or Object-Oriented Programming, is a programming model 
+        that organizes code around "objects" which are software entities 
+        that contain both data (attributes/variables) and the methods(functions) 
+        that operate on that data. 
+
+        -> Instead of a sequence of functions, OOP focuses on objects interacting 
+            with one another, making code more modular, reusable and easier to maintain.
+
+        -> Earlier 
+
+            -> Writing Long List Of Instruction (task oriented)
+        
+        -> Moving Forward 
+
+            -> Thinking in terms of real world entities (objects)
+
+                -> Object - Data (attributes/variables)
+
+                -> Object - Behavior (methods/functions)
+
+            -> Writing code that follows Object Oriented Design 
+
+                -> Focus is on objects and their relationships, not just functions 
+
+                -> We don't think about steps, we think about "who does what"
+
+        -> Four Pillars Of OOP 
+
+            -> Inheritance 
+
+                -> Using Inheritance We Get "Reusability"
+
+            -> Encapsulation 
+
+                -> Binding Data & Behavior Together 
+
+            -> Abstraction
+
+                -> Hiding Complexity, and show only what user needs 
+
+            -> Polymorphism
+
+                -> Extensibility, One Entity has multiple forms 
+    
+    Compare Functional vs OOP 
+
+                            Functional Style                        Object Oriented Style 
+
+    -> Focus                Step by step functions                  Real World Objects 
+
+    -> Data & Function      Separate                                Combined inside a class 
+
+    -> Code Organization    One Big Script                          Multiple Reuseable Classes 
+
+    -> Reusability          Harder                                  Easy as for Inheritance
+
+    -> Maintenance          Complex as code grows                   More Cleaner 
+
+
+    -> Functional Style Code 
+
+        def student_attended_session(name):
+            print(f"{name} Attended Session")
+
+    
+    -> Object Oriented Style Code 
+
+        class Student:
+
+            def __init__(self,name):
+                self.name = name
+            
+            def attended_session(self):
+                print(f"{self.name} Attended Session")
+
+    
+    -> To Work With Object Oriented Programming, below is the approach 
+
+        -> Classes 
+
+        -> Objects
+
+        -> Methods 
+
+        -> Constructors (__init__)
+
+        -> Instance Members 
+
+        -> Class Members 
+
+        -> Static Members 
+
+        -> OOP Principals
+
+            -> Inheritance 
+            -> Encapsulation
+            -> Abstraction
+            -> Polymorphism
+
