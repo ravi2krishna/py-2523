@@ -1772,3 +1772,102 @@
             -> Abstraction
             -> Polymorphism
 
+10th Dec 2025
+=============
+
+    -> Object 
+
+        -> In terms of real world, everything is an object 
+
+        -> An object has "two" entities 
+
+            -> An Object "has" something like Characteristics / Properties (DATA) 
+                Variables (Attributes) - CAR 
+
+                -> CAR has a brand 
+                -> CAR has a price  
+                -> CAR has a color etc 
+
+            -> An Object "does" something like Behaviors (FUNCTIONS) 
+                METHODS - CAR 
+
+                -> CAR does drive forward
+                -> CAR does drive backward
+                -> CAR does sound horn etc 
+
+        -> How To Create Object ?
+
+            -> We need Class 
+
+
+    -> Class 
+
+        -> A class is a "blueprint" for creating objects 
+
+        -> A class will define what Characteristics and Behaviors, an object should posses
+
+        -> NOTE: Here Car class can define what can a car have and what a car can do 
+    
+    -> Object 
+
+        -> An object is an real instance of a class 
+
+    -> Class & Object Syntax 
+
+        class ClassName:
+            statements 
+
+        object = ClassName()
+
+    -> NOTE: In Python Classes are automatically called, unlike functions 
+
+            -> Class call is not required 
+
+    
+    -> Methods 
+
+        -> Methods are like functions, which are associated with objects 
+
+        -> A Method is block of Code, which performs a task (associated with objects)
+
+        -> Methods will be inside Class 
+
+        ->                            Functions                              Methods
+
+        How To Call                   function_name(args)                    object.method_name(args)
+
+        Belongs To                    independent / global                   Object 
+
+        Defined Using                 def function_name                      def method_name(inside class)
+
+    
+    -> When working with OOP Style, one of the Confusion initially is 
+
+        -> Python Automatically Passes an object(self) to method 
+
+        -> self is nothing but object reference 
+
+        -> "self" is recommended by python, but you can pass anything as reference 
+
+    
+    -> __init__ 
+
+        -> __init__() is a special method (also called as Constructor) 
+
+        -> Constructors are used to initialize the data 
+
+        -> When we create an object, Constructors are Automatically called 
+
+        -> The __init__ method is defined within a class and always takes 
+            self as its first parameter, which refers to the 
+            instance of the object being created. 
+        
+            -> It can also take other parameters to receive values 
+                for initializing the object's attributes.
+            
+            -> syntax 
+
+                class MyClass:
+                    def __init__(self, attribute1, attribute2):
+                        self.attribute1 = attribute1
+                        self.attribute2 = attribute2    
