@@ -42,6 +42,14 @@ print(data)
 print(first_element)
 print(last_element)
 
+# Access Individual Elements -> 10k elements -> below is not efficient 
+data = {1:10,2:20,3:30,4:40,5:50}
+print(data[1])
+print(data[2])
+print(data[3])
+print(data[4])
+print(data[5])
+
 # access individual elements i.e looping data by default we get keys 
 data = {1:10,2:20,3:30,4:40,5:50} 
 for num in data:
